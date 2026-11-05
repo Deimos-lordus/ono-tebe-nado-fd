@@ -60,7 +60,7 @@ header {
     right: 0;
   
 }
-.cover__title { 
+.cover__title {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -112,7 +112,6 @@ header {
     word-spacing: 18px;
 }
 .bet-button {
-   
     margin: 0; /*cброс стилей для кнопки */                   
     background-color: transparent;
     font-style: normal;
@@ -259,7 +258,7 @@ header {
 
 .footer {
     width: 100%;
-    margin-top: 180px; 
+    margin-top: 180px;
     padding-left: 25px;
     padding-right: 80px;
     box-sizing: border-box;
@@ -284,7 +283,7 @@ header {
    
 }
 
-.footer__menu-list{
+.footer__menu-list {
     font-size: 18px;
     line-height: 100%;
     list-style: none;
