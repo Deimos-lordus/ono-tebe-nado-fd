@@ -112,7 +112,7 @@ header {
     word-spacing: 18px;
 }
 .bet-button {
-    margin: 0; /*cброс стилей для кнопки */                   
+    margin: 0; /*cброс стилей для кнопки */                 
     background-color: transparent;
     font-style: normal;
     text-transform: uppercase;
