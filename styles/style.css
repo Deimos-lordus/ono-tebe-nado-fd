@@ -90,9 +90,7 @@ header {
     text-align: right;
     padding-top: 15px;
 }
-.letter-spacing-extended {
-    letter-spacing: ;
-}
+
 .no-letter-spacing {
     letter-spacing: 0;
 }
