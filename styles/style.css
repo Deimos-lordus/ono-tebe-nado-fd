@@ -19,7 +19,7 @@ header {
     line-height: 100%;
     padding-left: 50px;
     list-style: circle;
-    text-transform: lowercase;  
+    text-transform: lowercase;
     font-size: 18px;
 }
 .header__links-list-item_line {  /* Линию подчёркивания сдвинуть вниз для совпадение с макетом */
