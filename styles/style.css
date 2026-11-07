@@ -22,13 +22,16 @@ header {
     text-transform: lowercase;
     font-size: 18px;
 }
+
 .header__links-list-item_line {  /* Линию подчёркивания сдвинуть вниз для совпадение с макетом */
     text-decoration: underline;
     text-underline-offset: 3px;
 }
+
 .header__links-list-item_no-bullit {  /* убрать кружок у главной */
     list-style: none;
 }
+
 .address {
     max-width: 240px;
     font-style: normal;   /*cброс стилей*/
@@ -38,6 +41,7 @@ header {
     margin-left: 182px;
     margin-right: 50px;
 }
+
 .header__address {
     justify-self: end;
     display: flex;
@@ -45,6 +49,7 @@ header {
     margin-left: 182px;
     margin-right: 50px;
 }
+
 .address__line { /* Линию подчёркивания сдвинуть вниз для совпадение с макетом */
     text-decoration: underline;
     text-underline-offset: 3px;
@@ -61,9 +66,9 @@ header {
     min-height: 757px;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-   
+    flex-direction: column; 
 }   
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -71,8 +76,8 @@ header {
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 0;
     right: 0;
-  
 }
+
 .cover__title {
     display: flex;
     position: relative;
@@ -81,6 +86,7 @@ header {
     z-index: 1;
     padding: 165px 50px 50px 50px;
 }
+
 .aligned-text {
     display: block;
     width: 100%;
@@ -89,6 +95,7 @@ header {
     font-size: 100px;
     white-space: nowrap;
 }
+
 .aligned-text_left {
     
     text-align: left;
@@ -99,6 +106,7 @@ header {
     padding-left: 30px;
     padding-top: 20px;
 }
+
 .aligned-text_right {
     text-align: right;
     padding-top: 15px;
@@ -107,6 +115,7 @@ header {
 .no-letter-spacing {
     letter-spacing: 0;
 }
+
 .cover__description {
     display: flex;
     align-items: center;
@@ -114,8 +123,8 @@ header {
     font-size: 22px;
     color:  #fff;
     justify-content: center;
-    
 }
+
 .cover__description-text {
     text-transform: uppercase;
     line-height: 28px;
@@ -125,6 +134,7 @@ header {
     padding-top: 12px;
 
 }
+
 .bet-button {
     margin: 0; /*cброс стилей для кнопки */
     background-color: transparent;
@@ -148,6 +158,7 @@ header {
     margin-top: 180px;
     flex-direction: column;
 }
+
 .lots__heading {
     text-transform: uppercase;
     font-size: 40px;
@@ -162,22 +173,21 @@ header {
     padding-right: 24px;
     padding-left: 24px;
     list-style: none; 
-    margin: 0; 
-    
+    margin: 0;
 }
+
 .lots__card-list-item {
     padding: 0;
     margin: 0;
     list-style: none;
     width: 334px;
-    
 }
 
 .card-link {
     height: 100%;
     text-decoration: none;
-
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -189,10 +199,9 @@ header {
     position: relative;
     z-index: 0;
 }
+
 .card_type_film {
     background-image: url('../images/card-lot-01.jpg');
-    
-
 }
 
 .card_type_book {
@@ -224,7 +233,7 @@ header {
     font-size: 20px;
     position: relative;
     z-index: 1;
-}   
+}
 
 .lots__look-more-link {
     font-size: 20px;
@@ -241,6 +250,7 @@ header {
     margin-top: 120px;
     box-sizing: border-box;
 }
+
 .about__logo {
     width: 240px;
     height: 240px;
@@ -251,8 +261,8 @@ header {
     margin-left: 71px;
     margin-bottom: 320px;
     margin-right: 72px;
-    
 }
+
 .about__logo-image {
     min-width: 148px;
     min-height: 114px;
@@ -261,10 +271,12 @@ header {
     padding-right: 48px;
     padding-bottom: 62px;
 }
+
 .about__column {
     padding-top: 133px;
     padding-left: 30px;
 }
+
 .about__title {
     font-size: 40px;
     margin-bottom: 100px;
@@ -272,10 +284,9 @@ header {
     margin-top: 3px;
     text-align: left;
     text-transform: uppercase;
-    
 }
+
 .about__text {
-    
     font-size: 20px;
     line-height: 24px;
     display: flex;
@@ -284,6 +295,7 @@ header {
     flex-direction: column;
     gap: 25px;
 }
+
 .about__text__p {
     margin-top: 5px;
 }
@@ -316,6 +328,7 @@ header {
     text-underline-offset: 3px;
     line-height: 100%;
 }
+
 .footer__menu {
     display: flex;
     flex-direction: column;
@@ -325,7 +338,6 @@ header {
     margin-top: 1px;
     padding-bottom: 115px;
     justify-self: center;
-   
 }
 
 .footer__menu-list {
@@ -351,13 +363,13 @@ header {
     list-style: none;
     justify-self: end;
     padding-right: 50px;
-    
 }
 
 .footer__social-list-item {
     min-width: 48px;
     min-height: 48px;
 }
+
 .footer__social-link {
     display: flex;
     align-items: center;
